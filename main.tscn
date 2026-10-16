@@ -1,0 +1,41 @@
+[gd_scene format=3 uid="uid://c00g8lgjk3712"]
+
+[ext_resource type="Script" path="res://player.gd" id="1_ig7tw"]
+
+[node name="Main" type="Node2D" unique_id=966578206]
+
+[node name="Floor" type="ColorRect" parent="." unique_id=1182446619]
+offset_left = 64.0
+offset_top = 64.0
+offset_right = 384.0
+offset_bottom = 384.0
+color = Color(0.68514574, 0.6851458, 0.6851457, 1)
+
+[node name="Player" type="ColorRect" parent="." unique_id=1039988733]
+offset_left = 76.0
+offset_top = 76.0
+offset_right = 116.0
+offset_bottom = 116.0
+color = Color(0.33780798, 0.5818567, 1, 1)
+script = ExtResource("1_ig7tw")
+
+[node name="Box" type="ColorRect" parent="." unique_id=910312167]
+offset_left = 204.0
+offset_top = 204.0
+offset_right = 244.0
+offset_bottom = 244.0
+color = Color(0.8500102, 0.54494524, 0.33483455, 1)
+
+[node name="Goal" type="ColorRect" parent="." unique_id=1331214279]
+offset_left = 200.0
+offset_top = 328.0
+offset_right = 248.0
+offset_bottom = 376.0
+color = Color(0.34308562, 0.99999994, 0.23395371, 1)
+
+[node name="WinLabel" type="Label" parent="." unique_id=852761063]
+offset_left = 64.0
+offset_top = 16.0
+offset_right = 121.0
+offset_bottom = 39.0
+text = "Clear！"
